@@ -1,6 +1,10 @@
 {
-  "extends": "airbnb",
+  "extends": "airbnb-base",
   "rules": {
-    "func-names": ["error", "never"]
+    "no-console": "off"
+  },
+  "env": {
+    "browser": true,
+    "node": true
   }
 }
